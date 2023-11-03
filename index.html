@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Processor</title>
+    <script src="image-processor.js"></script>
+</head>
+<body>
+<input type="file" id="imageInput" accept="image/*">
+<div>
+    <select id="direction">
+        <option value="landscape">Landscape</option>
+        <option value="portrait">Portrait</option>
+    </select>
+    <select id="mode">
+        <option value="scale">Scale</option>
+        <option value="cut">Cut</option>
+    </select>
+    <select id="dither">
+        <option value="0">None</option>
+        <option value="1">Floyd-Steinberg</option>
+    </select>
+</div>
+<canvas id="canvas"></canvas>
+<button id="saveButton">Save Image</button>
+
+<script>
+    // This is a placeholder for your image-processor.js file content
+</script>
+</body>
+</html>
